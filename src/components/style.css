@@ -1,0 +1,709 @@
+  .cardTextStyle {
+    position: relative;
+    margin-left: 10px;
+    border: 0 !important;
+    background-color: rgba(255, 255, 255, 0.842) !important;
+    width: 18rem;
+    font-size: clamp(0.5rem, 1vw, 3rem);
+
+  }
+
+  .cardTextStyle2 {
+
+    width: 16rem;
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: 0 !important;
+
+
+  }
+
+  .cardLastitem {
+
+    background-color: #6F81AF !important;
+    border: 0 !important;
+    width: 16rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(252, 252, 252) !important;
+    font-size: clamp(0.8rem, 1vw, 3rem);
+    position: relative;
+  }
+
+  .mainPagetext {
+
+    color: white;
+    font-size: 4rem;
+    font-size: clamp(0.5rem, 4vw, 6rem);
+
+
+
+
+
+  }
+.navbaralign{
+
+  text-align: left;
+}
+  .navBarstyle {
+
+     padding-right: 10px;
+    color: rgba(206, 206, 206, 0.795) !important;
+    font-size: 1.2rem;
+    font-size: clamp(0.9rem, 1.2vw, 3rem);
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+
+  .navBarstyle3 {
+
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white !important;
+    font-size: 1.2rem;
+    font-size: clamp(0.9rem, 1.2vw, 3rem);
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+  .navBarbutton {
+
+    background-color: rgba(255, 255, 255, 0.192) !important;
+    color: rgb(255, 255, 255) !important;
+    border-color: rgb(255, 255, 255) !important;
+    font-size: 1.2rem;
+    font-size: clamp(0.9rem, 1.2vw, 3rem);
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    border-style: double;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+
+  .links:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: white !important;
+  }
+
+  .banner:hover {
+
+    background-color: black;
+
+
+  }
+
+  .cardTextStylast {
+
+    padding-left: 10px;
+    border: 0 !important;
+    background-color: #6F81AF !important;
+    width: 18rem;
+    margin-left: auto;
+
+  }
+
+  .mainText2 {
+
+    font-size: 3rem;
+    font-size: clamp(1rem, 3vw, 5rem);
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+
+  }
+
+  .tryUsBtn {
+    font-size: 1.5rem;
+    font-size: clamp(0.8rem, 1vw, 3rem);
+    background-color: #00164d;
+    color: white;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 1rem;
+
+  }
+
+  .longText {
+    font-size: 1.2rem;
+    font-size: clamp(0.8rem, 1vw, 3rem);
+    margin-bottom: 2rem;
+    color: rgb(151, 148, 148);
+    margin-left: 1rem;
+  }
+
+  .dineIn {
+
+    text-align: center;
+    font-size: 2rem;
+    font-size: clamp(1.2rem, 2vw, 4rem);
+    font-weight: 500;
+    margin-top: 2rem;
+
+  }
+
+  .dineText {
+
+    text-align: center;
+    font-size: 1.2rem;
+    font-size: clamp(0.8rem, 1vw, 3rem);
+    margin-bottom: 1rem;
+  }
+
+  .restoStyle {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .restoDisp {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .sliderPosition {
+    margin-left: 50px;
+    align-items: center;
+  }
+
+  .hotelText {
+    font-size: 3rem;
+    font-size: clamp(1.5rem, 3vw, 5rem);
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-left: 5rem;
+  }
+
+  .hotelSubtext {
+    font-size: 1.2rem;
+    font-size: clamp(0.8rem, 1vw, 3rem);
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+    font-weight: 400;
+  }
+
+  .buttonSetting {
+    background-color: transparent;
+    border: 0px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+
+  }
+
+  .cardStyle {
+    background-color: #00164d;
+    margin-top: 5rem;
+  }
+
+  .offerStyle {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+  }
+
+  .slider2Style {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 2.5rem;
+  }
+
+  .offerText {
+    font-size: 1.2rem;
+    font-size: clamp(0.5rem, 1.2vw, 3rem);
+    text-align: center;
+    color: white;
+    font-weight: 500;
+  }
+
+  .offerText1 {
+    font-size: 1.2rem;
+    font-size: clamp(0.7rem, 1.2vw, 3rem);
+    text-align: left;
+    color: rgb(197, 196, 196);
+    font-weight: 500;
+  }
+
+  .offerMaintext {
+    font-size: 2rem;
+    font-size: clamp(0.8rem, 2vw, 3rem);
+    text-align: left;
+    color: white;
+  }
+
+  .fastChekin {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+
+  }
+
+  .fastCtext {
+    font-size: 4rem;
+    font-size: clamp(2rem, 4vw, 6rem);
+    font-weight: 600;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .fastCtext2 {
+    font-size: 1.2rem;
+    font-size: clamp(0.9rem, 1vw, 2rem);
+    color: rgb(175, 174, 174);
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+
+  }
+
+  .fastBtn {
+
+    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+  }
+
+  .contact {
+    font-size: 3rem;
+    font-size: clamp(1.5rem, 3vw, 5rem);
+    font-weight: 500;
+    margin-left: 10rem;
+    color: #00123f;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+  }
+
+  .contactText {
+    font-size: 1.2rem;
+    text-align: center;
+    font-size: clamp(0.8rem, 1vw, 2rem);
+    color: rgb(184, 181, 181);
+  
+  }
+  .contactSmall {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fcfcfc;
+    background-color: #00123f;
+    text-align: center;
+    margin-top: 2rem;
+
+  }
+
+  .contactCard {
+    padding-top: 3rem;
+    background-color: #00164d;
+    padding-bottom: 3rem;
+
+  }
+
+  .contactCard2 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: white;
+
+  }
+
+  .contactCard3 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: white;
+  }
+
+  .contactFormtxt {
+    background-color: rgb(255, 255, 255);
+    color: #00164d !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+
+
+  }
+
+  .sendMsg {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: #00164d;
+  }
+
+  .cfHead {
+    padding-top: 1rem;
+    background-color: rgb(255, 255, 255);
+    color: #00164d;
+    font-size: 1.5rem;
+    font-size: clamp(0.8rem, 1.5vw, 3rem);
+    text-align: left;
+    font-weight: 600;
+
+  }
+  .contact-form {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Vertically center the items */
+}
+
+.contact-label {
+    margin-right: 10px; /* Add some spacing between the label and the input */
+}
+
+  .cfInput {
+    background-color: rgb(255, 255, 255) !important;
+    margin-bottom: 5px;
+
+  }
+
+  .listStyle {
+    text-align: left;
+    color: gray;
+    font-size: 0.8rem;
+    font-weight: 500;
+    
+    
+  }
+
+  .listHead {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+  .listHead2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+
+  .card4syle {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 5rem;
+    background-color: #fcfcfc;
+
+  }
+
+  .reviewstyle {
+    font-size: 0.8rem;
+    color: rgb(133, 133, 133);
+  }
+
+  .reviewName {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+
+  }
+
+  .footerStyle {
+
+    background-color: #00123f;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .bgcolorfoot {
+    background-color: #00123f;
+
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+  }
+
+  .flex-containerMain {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    
+  }
+
+  .spacing{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .spacing2{
+margin-top: 15px;
+
+  }
+
+  .text-block {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    font-size: clamp(0.6rem, 0.8vw, 2rem);
+  }
+
+  .text-block2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    font-size: clamp(0.6rem, 0.8vw, 2rem);
+  }
+
+  .text-block3 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    /* margin-top: 10rem; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    font-size: 1rem;
+    font-size: clamp(0.6rem, 0.8vw, 2rem);
+    
+  }
+
+  .text-block4 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    font-size: 1rem;
+    font-size: clamp(0.6rem, 0.8vw, 2rem);
+    
+  }
+
+
+  .dropdown {
+    background-color: rgba(255, 255, 255, 0.801) !important;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    border: 0;
+    border-radius: 0px;
+    width: 18rem;
+
+
+  }
+
+  .dropdownlist {
+    width: 150px;
+    height: 250px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    font-size: 1.2rem;
+
+  }
+
+  .dropstart .dropdown-toggle::before {
+    display: none;
+  }
+
+
+  span {
+    cursor: pointer;
+  }
+
+  .number {
+    margin: 100px;
+  }
+
+  .minus,
+  .plus {
+    width: 20px;
+    height: 20px;
+    background: #f2f2f2;
+    border-radius: 4px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  input {
+    height: 34px;
+    width: 100px;
+    text-align: center;
+    font-size: 26px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #f2f2f200;
+  flex-wrap: wrap;
+}
+.bookingStyle{
+  margin-top: 1.5rem;
+}
+.bookingStyleItem{
+  background-color: #00164d;
+  color: #ddd;
+  font-size: 1.2rem ;
+}
+.sliderImageStyle{
+object-fit: contain;
+width: 100%;
+
+}
+.journalSpacing{
+margin-bottom: 10px;
+}
+.floating-phone {
+  position: fixed;
+  bottom: 100px; /* Adjust the vertical position */
+  right: 5px; /* Adjust the horizontal position */
+  z-index: 1000; /* Ensure it's above other content */
+  background-color: #584cc0; /* Background color of the button */
+  color: #fff; /* Text color of the button */
+  border-radius: 20%; /* Create a round button */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.floating-phone img {
+  width: 30px; /* Adjust the phone icon size */
+}
+
+.floating-whatsapp{
+
+  position: fixed;
+  bottom: 150px; /* Adjust the vertical position */
+  right: 5px; /* Adjust the horizontal position */
+  z-index: 1000; /* Ensure it's above other content */
+  background-color: #4dc46b; /* Background color of the button */
+  color: #fff; /* Text color of the button */
+  border-radius: 20%; /* Create a round button */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+.floating-whatsapp img {
+  width: 30px; /* Adjust the phone icon size */
+}
+.floating-nav {
+  background-color: #fafafa00;
+  transition: background-color 0.9s;
+  padding: 10px;
+  position: fixed;
+  top: -60px;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex; /* Add this */
+  justify-content: center; /* Add this */
+  align-items: center; /* This centers vertically */
+}
+
+.floating {
+  top: 0;
+  background-color: #858585dc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.floating-button-container {
+  position: fixed;
+  bottom: 220px;
+  right: 20px;
+  transition: right 0.3s ease-in-out;
+}
+
+.floating-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  transition: right 0.3s ease-in-out;
+  background-color: #00123f;
+}
+
+.text {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+  position:relative;
+  text-align: right;
+  right: -200%; /* Initially hidden to the right */
+  transition: right 0.3s ease-in-out;
+}
+
+.slide-left {
+  right: 120px; /* Position to the left when text is visible */
+}
+
+.jouralDate{
+  color: #00164d;
+  font-size: 0.7rem;
+ font-weight: 700 ;
+}
+
+
+
+
+  .show-on-small-screen {
+    display: none;
+  }
+  @media (max-width: 800px) {
+    .hide-on-small-screen {
+      display: none;
+    }
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+     text-align: center;
+     align-content: center;
+     
+    }
+  }
+ 
+  @media (max-width: 800px) {
+    .show-on-small-screen {
+      display: block;
+    }
+  }
+  
