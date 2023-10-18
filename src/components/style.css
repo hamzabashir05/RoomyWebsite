@@ -107,14 +107,18 @@
 
   .mainText2 {
 
-    font-size: 3rem;
-    font-size: clamp(1rem, 3vw, 5rem);
-    font-weight: 600;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-size: clamp(1.5rem, 2.5vw, 3rem);
+    font-weight: 500;
     margin-left: 1rem;
+    font: normal Mohave;
+    letter-spacing: -.5px;
+    color: #000;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: 1rem;
+}
 
-  }
 
   .tryUsBtn {
     font-size: 1.5rem;
@@ -130,11 +134,13 @@
   }
 
   .longText {
-    font-size: 1.2rem;
-    font-size: clamp(0.8rem, 1vw, 3rem);
-    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-size: clamp(0.8rem, 1vw, 2rem);
+    margin-bottom: 1rem;
     color: rgb(151, 148, 148);
     margin-left: 1rem;
+    width: 25em;
+    letter-spacing: 0;
   }
 
   .dineIn {
@@ -203,7 +209,9 @@
   .offerStyle {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    margin-left: 1rem;
+    width:200px;
+
+
   }
 
   .slider2Style {
@@ -213,8 +221,8 @@
   }
 
   .offerText {
-    font-size: 1.2rem;
-    font-size: clamp(0.5rem, 1.2vw, 3rem);
+    font-size: 1rem;
+    font-size: clamp(0.5rem, 1vw, 3rem);
     text-align: center;
     color: white;
     font-weight: 500;
@@ -236,12 +244,25 @@
   }
 
   .fastChekin {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    margin-right: 5rem;
-
+   width: 100%;
+   margin-top: 1rem;
+   object-fit: contain;
   }
+  .card1Style{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+object-fit: contain;
+padding-left: 90px;
+padding-top: 90px;
+padding-right: 90px;
 
+ 
+  }
+  .card1Text{
+    width: 100%;
+  }
   .fastCtext {
     font-size: 4rem;
     font-size: clamp(2rem, 4vw, 6rem);
@@ -262,10 +283,8 @@
 
   .fastBtn {
 
-    margin-top: 4rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-
+    margin: 1rem;
+    width: 40%;
   }
 
   .contact {
@@ -276,15 +295,20 @@
     color: #00123f;
     margin-bottom: 1rem;
     margin-top: 1rem;
-
+    letter-spacing: 0;
+    opacity: 1;
+    text-transform: uppercase;
   }
 
   .contactText {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
     font-size: clamp(0.8rem, 1vw, 2rem);
     color: rgb(184, 181, 181);
-  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.42;
+    opacity: 0.55;
   }
   .contactSmall {
     font-size: 2rem;
@@ -336,14 +360,18 @@
   }
 
   .cfHead {
-    padding-top: 1rem;
+    
     background-color: rgb(255, 255, 255);
-    color: #00164d;
-    font-size: 1.5rem;
-    font-size: clamp(0.8rem, 1.5vw, 3rem);
-    text-align: left;
-    font-weight: 600;
-
+    font-size: 1.4rem;
+    font-size: clamp(1rem, 1.5vw, 3rem);
+    text-align: center;
+    font-weight: 700;
+   font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+    color: #353070;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-top: 1rem;
   }
   .contact-form {
     display: flex; /* Use flexbox to align items horizontally */
@@ -362,11 +390,14 @@
 
   .listStyle {
     text-align: left;
-    color: gray;
-    font-size: 0.8rem;
-    font-weight: 500;
-    
-    
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+    color: #464646;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 0.7rem;
+    background-color: #ffffff;
+   
   }
 
   .listHead {
@@ -375,12 +406,13 @@
     text-align: left;
     margin-bottom: 2rem;
     margin-top: 1rem;
+    
   }
 
   .listHead2 {
     font-size: 1.5rem;
     font-weight: 500;
-    text-align: center;
+    text-align: left;
     margin-bottom: 2rem;
     margin-top: 3rem;
   }
@@ -391,13 +423,22 @@
     padding-left: 2rem;
     padding-right: 2rem;
     margin-top: 5rem;
-    background-color: #fcfcfc;
+    background-color: #ffffff;
+    border: #000;
+    border-radius: 10px;
 
   }
 
   .reviewstyle {
     font-size: 0.8rem;
-    color: rgb(133, 133, 133);
+    font-size: clamp(0.5rem 0.8vw 1rem);
+    text-align: left;
+    font: oblique normal;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+    color: #aaa;
+    opacity: 1;
+    margin-bottom: 0;
   }
 
   .reviewName {
@@ -405,7 +446,7 @@
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     font-weight: 500;
-
+   
   }
 
   .footerStyle {
@@ -602,25 +643,6 @@ margin-bottom: 10px;
   width: 30px; /* Adjust the phone icon size */
 }
 
-.floating-whatsapp{
-
-  position: fixed;
-  bottom: 150px; /* Adjust the vertical position */
-  right: 5px; /* Adjust the horizontal position */
-  z-index: 1000; /* Ensure it's above other content */
-  background-color: #4dc46b; /* Background color of the button */
-  color: #fff; /* Text color of the button */
-  border-radius: 20%; /* Create a round button */
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-}
-.floating-whatsapp img {
-  width: 30px; /* Adjust the phone icon size */
-}
 .floating-nav {
   background-color: #fafafa00;
   transition: background-color 0.9s;
@@ -678,15 +700,49 @@ margin-bottom: 10px;
   font-size: 0.7rem;
  font-weight: 700 ;
 }
+.card1image{
+width: 65%;
+}
+.HostFlex{
 
+  display: flex;
+  flex-direction: column; /* Arrange rows vertically */
+  justify-content: center; /* Center rows vertically */
+  align-items: center; /* Center rows horizontally */
 
-
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+  width: 100%; /* Ensure each row takes the full width of the parent */
+  margin-bottom: 0.5rem; /* Add spacing between rows */
+}
+.HostFlexImg{
+  width: 60px;
+  background-color: #e6e6e6;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-right: 1em;
+  
+}
+.socialImg{
+  width: 50px; 
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  
+}
 
   .show-on-small-screen {
     display: none;
   }
   @media (max-width: 800px) {
     .hide-on-small-screen {
+      display: none;
+    }
+  }
+  @media (max-width: 1000px) {
+    .hide-on-small-screenReviews {
       display: none;
     }
   }
@@ -700,10 +756,60 @@ margin-bottom: 10px;
      
     }
   }
+  @media (max-width: 800px) {
+  .card1Style{
+    flex-direction: column;
+   text-align: center;
+   align-content: center;
+   
+  }
+  .card1image{
+     width: 500px;
+    
+  }
+  .mainText2{
+    font-size: 1.7rem;
+    font-weight: 500;
+    font: normal Mohave;
+    letter-spacing: -.5px;
+    margin-top: 0.8rem;
+    color: #000;
+    text-transform: uppercase;
+    opacity: 1;
+   
+  }
+  .longText{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(151, 148, 148);
+    letter-spacing: 0;
+  }
+}
  
   @media (max-width: 800px) {
     .show-on-small-screen {
       display: block;
     }
   }
-  
+  @media (max-width: 1000px) {
+    .show-on-small-screenReview {
+      display: block;
+    }
+  }
+  @media (max-width: 1000px) {
+    .HostFlexImg{
+      width: 50px;
+      background-color: #e6e6e6;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      margin-right: 0.2rem;
+      
+    }
+    .socialImg{
+      width: 30px; 
+      padding-top: 0.2rem;
+      padding-bottom: 0.2rem;
+      padding-inline:0.2rem;
+    }
+    
+  }

@@ -37,11 +37,11 @@ export default function Card2() {
      
         </Col>
         <Col sm={2} xs={3} className='my-auto'> 
-        <img src={offer}  className='offerStyle w-75 img-fluid' alt='' />
+        <img src={offer}  className='offerStyle img-fluid' alt='' />
         <Card.Text className='offerText'> Summer End Deal</Card.Text>
         </Col>
         <Col sm={2} xs={3} className='my-auto'>
-        <img src={offer1} className='offerStyle w-75 img-fluid' alt='' />
+        <img src={offer1} className='offerStyle img-fluid' alt='' />
         <Card.Text className='offerText'>Faysal Bank Deals</Card.Text>
         </Col>
         <Col sm={3} xs={0}></Col>

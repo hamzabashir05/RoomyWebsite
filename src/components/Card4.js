@@ -50,78 +50,79 @@ export default function Card4() {
   <Container flex className='card4syle'>
 <Row>
     
-    <Col lg={4} xs={7} md={6} className='justify-content: flex-start'>
+    <Col lg={4} xs={7} md={4} className='justify-content: flex-start'>
     <div> 
-      
+
         <h5 className='listHead'>CUSTOMER REVIEWS</h5>
-      <div className='show-on-small-screen'>
+      <div className='show-on-small-screenReview'>
           <SmallReview/>
       </div>
-        <Carousel  responsive={responsive} className='hide-on-small-screen' indicators={true}>
+        <Carousel  responsive={responsive} className='hide-on-small-screenReviews' 
+        indicators={true} showArrows={true}>
         <Carousel.Item > 
         <Row  >
-            <Col md={4} xs={5}> < img src={r1} className='w-75 ' alt=''/> </Col>
-            <Col md={8} xs={7}> 
+            <Col md={3} xs={5}> < img src={r1} className='w-75 ' alt=''/> </Col>
+            <Col md={9} xs={7}> 
             <h6 className='reviewName'>Umair Jaswal</h6>
             <text className='reviewstyle'>Overall satisfied with the service and comfort. Rooms were basic but clean and everything was in working order.</text>
             </Col>
         </Row>
         <Row>
-            <Col md={4} xs={5}> < img src={r2} className='w-75' alt='' /> </Col>
-            <Col md={8}xs={7}>  <h6 className='reviewName'> Humnah Raza</h6>
+            <Col md={3} xs={5}> < img src={r2} className='w-75' alt='' /> </Col>
+            <Col md={9}xs={7}>  <h6 className='reviewName'> Humnah Raza</h6>
             <text className='reviewstyle'>Overall satisfied with the service and comfort. Rooms were basic but clean and everything was in working order.</text> </Col>
         </Row>
         <Row>
-            <Col md={4} xs={5}> < img src={r3} className='w-75' alt='' /></Col>
-            <Col md={8}xs={7}> <h6 className='reviewName'>Eva Zu Bek</h6>
+            <Col md={3} xs={5}> < img src={r3} className='w-75' alt='' /></Col>
+            <Col md={9}xs={7}> <h6 className='reviewName'>Eva Zu Bek</h6>
             <text className='reviewstyle'>Overall satisfied with the service and comfort. Rooms were basic but clean and everything was in working order.</text> </Col>
         </Row>
           </Carousel.Item>
             
           <Carousel.Item> 
         <Row>
-            <Col md={4} xs={5}> < img src={r7} className='w-75' alt=''/> </Col>
-            <Col md={8}xs={7}> 
+            <Col md={3} xs={5}> < img src={r7} className='w-75' alt=''/> </Col>
+            <Col md={9}xs={7}> 
             <h6 className='reviewName'>Ghazal </h6>
             <text className='reviewstyle'>Overall satisfied with the service and comfort. Rooms were basic but clean and everything was in working order.</text>
             </Col>
         </Row>
         <Row>
-            <Col md={4}xs={5}> < img src={r5} className='w-75' alt='' /> </Col>
-            <Col md={8}xs={7}>  <h6 className='reviewName'> Aqib</h6>
+            <Col md={3}xs={5}> < img src={r5} className='w-75' alt='' /> </Col>
+            <Col md={9}xs={7}>  <h6 className='reviewName'> Aqib</h6>
             <text className='reviewstyle'>Overall satisfied with the service and comfort. Rooms were basic but clean and everything was in working order.</text> </Col>
         </Row>
         <Row>
-            <Col md={4} xs={5}> < img src={r6} className='w-75' alt='' /></Col>
-            <Col md={8} xs={7}> <h6 className='reviewName'>Chandril</h6>
+            <Col md={3} xs={5}> < img src={r6} className='w-75' alt='' /></Col>
+            <Col md={9} xs={7}> <h6 className='reviewName'>Chandril</h6>
             <text className='reviewstyle'>Overall satisfied with the service and comfort. Rooms were basic but clean and everything was in working order.</text> </Col>
         </Row>
           </Carousel.Item>
             
           <Carousel.Item> 
         <Row>
-            <Col md={4} xs={5}> < img src={r4} className='w-75' alt=''/> </Col>
-            <Col md={8} xs={7}> 
+            <Col md={3} xs={5}> < img src={r4} className='w-75' alt=''/> </Col>
+            <Col md={9} xs={7}> 
             <h6 className='reviewName'>Steve Amy</h6>
             <text className='reviewstyle'>Overall satisfied with the service and comfort. Rooms were basic but clean and everything was in working order.</text>
           
             </Col>
         </Row>
         <Row>
-            <Col md={4} xs={5}> < img src={r8} className='w-75' alt='' /> </Col>
-            <Col md={8} xs={7}>  <h6 className='reviewName'> Zee Abbas</h6>
+            <Col md={3} xs={5}> < img src={r8} className='w-75' alt='' /> </Col>
+            <Col md={9} xs={7}>  <h6 className='reviewName'> Zee Abbas</h6>
             <text className='reviewstyle'>Overall satisfied with the service and comfort. Rooms were basic but clean and everything was in working order.</text> </Col>
         </Row>
         <Row>
-            <Col md={4} xs={5}> < img src={r9} className='w-75' alt='' /></Col>
-            <Col md={8} xs={7}> <h6 className='reviewName'>Daniel A</h6>
+            <Col md={3} xs={5}> < img src={r9} className='w-75' alt='' /></Col>
+            <Col md={9} xs={7}> <h6 className='reviewName'>Daniel A</h6>
             <text className='reviewstyle'>Overall satisfied with the service and comfort. Rooms were basic but clean and everything was in working order.</text> </Col>
         </Row>
           </Carousel.Item>
         </Carousel>
     </div>
     </Col>
-    <Col lg={2} xs={5} md={6} >
+    <Col lg={2} xs={5} md={2} >
     <h5 className='listHead'>MENU</h5>
     <Tab.Container  >
       
@@ -149,10 +150,10 @@ export default function Card4() {
     </Tab.Container>
     
     </Col>
-    <Col lg={2} xs={7} md={6} >
+    <Col lg={2} xs={7} md={2} >
         <h5 className='listHead'> JOURNAL</h5>
     <Row>
-        <Col md={5} xs={5}> < img src={p7} className='w-75 journalSpacing' alt='' />
+        <Col md={5} xs={5}> < img src={p7} className='w-100 journalSpacing' alt='' />
         </Col>
         <Col md={7} xs={7}> 
         <p className='reviewstyle'>Informative,&nbsp;Upbeat And&nbsp;Aspirational!  </p> 
@@ -175,48 +176,30 @@ export default function Card4() {
         </Col>
     </Row>
     </Col>
-    <Col lg={4} xs={5} md={6}>
-    <h5 className='listHead' > WE ALSO HOST </h5>
-    <Container responsive={responsive}>
-      <Row>
-        <Col  md={3} ></Col>
-        <Col xs={4} md={3}>
-       < img src={p1} className='w-75 journalSpacing ' alt='' />
-        </Col>
-        <Col xs={4} md={3}>
-        < img src={p4} className='w-75 journalSpacing' alt='' />
-        </Col>
-        <Col xs={4} md={3}>
-        < img src={p2} className='w-75 journalSpacing' alt='' />
-        </Col>
-        </Row>
-        <Row>
-        <Col  md={3}></Col>
-        <Col xs={4} md={3}>
-            < img src={p3} className='w-75 ' alt='' />
-        </Col>
-        <Col xs={4} md={3}>
-        < img src={p5} className='w-75 ' alt='' />
-        </Col>
-        <Col xs={4} md={3}>
-        < img src={p6} className='w-75 ' alt='' />
-        </Col>
-        </Row>
-        <Row>
-            <h5 className='listHead2 ' > SOCIAL WITH US </h5>
-            <Col md={2} ></Col>
-            <Col md={2} xs={3}>  < img src={s1} className='w-100  ' alt='' />
-            </Col>
-            <Col md={2} xs={3}>  < img src={s2} className='w-100 ' alt='' />
-            </Col>
-            <Col md={2} xs={3}>  < img src={s3} className='w-100 ' alt='' />
-            </Col>
-            <Col md={2} xs={3}>  < img src={s4} className='w-100 ' alt='' />
-            <Col md={2} > </Col>
-            </Col>
-        </Row>
-      
-    </Container>
+    <Col lg={4} xs={5} md={4}>
+
+    <h5 className='listHead' > WE&nbsp;ALSOHOST </h5>
+      <div className='HostFlex'>
+       <div className='row'> 
+        < img src={p1} className='HostFlexImg  ' alt='' />
+        < img src={p4} className='HostFlexImg ' alt='' />
+        < img src={p2} className='HostFlexImg ' alt='' />
+        </div> 
+        <div className='row'> 
+        < img src={p3} className='HostFlexImg ' alt='' />
+        < img src={p5} className='HostFlexImg' alt='' />
+        < img src={p6} className='HostFlexImg ' alt='' />
+        </div>
+        </div> 
+        <h5 className='listHead2 ' > SOCIAL&nbsp;WITH&nbsp;US </h5>
+         <div className='row'> 
+            < img src={s1} className='socialImg ' alt='' />
+            < img src={s2} className='socialImg ' alt='' />
+            < img src={s3} className='socialImg ' alt='' />
+            < img src={s4} className='socialImg ' alt='' />
+            <img src={s5}  className='socialImg'  alt=''></img>
+         </div>
+
     </Col>
 </Row>
 

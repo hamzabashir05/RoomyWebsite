@@ -14,18 +14,18 @@ export default function ContactForm() {
       items: 3
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1024, min: 550 },
       items: 2
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 550, min: 0 },
       items: 1
     }
   };
 
   return (
   
-         <Form className='w-100 h-100 border-0' responsive={responsive}>
+         <Form className='w-100  border-0' responsive={responsive}>
         <div className='cfHead'>WE'RE HERE TO HELP YOU</div>
         <Form.Group className='contactFormtxt'>
         <Form.Label>Name</Form.Label>

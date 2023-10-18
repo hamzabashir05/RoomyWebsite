@@ -9,14 +9,14 @@ export default function ContactUs() {
                 <Col md={6}>
                     <Card className='border-0 hide-on-small-screen'>
                         <Card.Body className=''>
-                            <Card.Title className='contact'>  CONTACT US </Card.Title>
+                            <Card.Title className='contact'>CONTACT&nbsp;US</Card.Title>
                             <Card.Text className='contactText'> Phone : 92-3-111-444-100 <br /> Email : reservation@roomy.pk </Card.Text>
                         </Card.Body>
                         
                     </Card>
                     <Card className='contactSmall show-on-small-screen'>
                             <Card.Body>
-                        <Card.Title className='contactSmall'>  CONTACT US </Card.Title>
+                        <Card.Title className='contactSmall'>CONTACT&nbsp;US</Card.Title>
                         <Card.Text className='contactText'> Phone : 92-3-111-444-100 <br /> Email : reservation@roomy.pk </Card.Text>
                         </Card.Body>
                         </Card>

@@ -53,7 +53,7 @@ export default function Home() {
       <FloatingButtons/>
       <MainText />
       
-      <Carousel responsive={responsive} >
+      <Carousel  responsive={responsive} >
 
         <Carousel.Item >
           <img src={cover1} className='w-100' style={{ minHeight: "90vh" }} alt='' />

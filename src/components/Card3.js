@@ -9,21 +9,21 @@ import fastarrow from '../assets/fast_checkin_bot_arrow.png'
 export default function Card3() {
 
   return (
-    <Container >
-    <Row>   
- <Col  md={6} sm={6}>
-  <img src={fastCheck} className='fastChekin w-100 img-fluid' alt='' />
- </Col>
-<Col md={6} sm={6}>
-<div className='fastCtext'>FAST CHECK IN APP</div>
-<div className='fastCtext2'> A Three-Step Feature For A Contactless And Hassle-Free Check-In Process <br></br>Download Our App & Book A Room Now!</div>
+    <Container className='card1Style' >
+ 
+  <img src={fastCheck} className='card1image' alt='' />
+ 
+<div>
+<p className='mainText2'>FAST&nbsp;CHECK&nbsp;IN&nbsp;APP</p>
+<p className='longText'> A Three-Step Feature For A Contactless And Hassle-Free Check-In Process. <br/>Download Our App & Book A Room Now!</p>
 <div > 
-<img src={playstore} className='fastBtn w-25 h-25 img-fluid' alt='' />
- <img src={appstore} className='fastBtn w-25 h-25 img-fluid' alt='' />
+<img src={playstore} className='fastBtn ' alt='' />
+ <img src={appstore} className='fastBtn ' alt='' />
  </div>
- <div> <img src={fastarrow} className=' fastBtn w-25 h-25 img-fluid hide-on-small-screen' alt=''/></div>
-</Col>
-    </Row>
+ <img src={fastarrow} className=' fastBtn img-fluid hide-on-small-screen' alt=''/>
+ </div>
+
+    
 
 
     </Container>

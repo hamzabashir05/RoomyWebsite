@@ -26,13 +26,13 @@ export default function SmallReview() {
   };
   
   return (
-    <Carousel  responsive={responsive} >
+    <Carousel  responsive={responsive}  indicators={true} showArrows={true}> 
       <Carousel.Item >
         <Row>
-          <Col md={6} xs={5}>
-            <img src={r1} className="w-75 " alt="" />
+          <Col  xs={3}>
+            <img src={r1} className="w-100 " alt="" />
           </Col>
-          <Col md={6} xs={7}>
+          <Col  xs={9}>
             <h6 className="reviewName">Umair Jaswal</h6>
             <text className="reviewstyle">
               Overall satisfied with the service and comfort. Rooms were basic
@@ -43,10 +43,10 @@ export default function SmallReview() {
       </Carousel.Item>
       <Carousel.Item>
         <Row>
-          <Col sm={4} xs={5}>
-            <img src={r2} className="w-75 " alt="" />
+          <Col  xs={3}>
+            <img src={r2} className="w-100 " alt="" />
           </Col>
-          <Col sm={8} xs={7}>
+          <Col  xs={9}>
             <h6 className="reviewName"> Humnah Raza</h6>
             <text className="reviewstyle">
               Overall satisfied with the service and comfort. Rooms were basic
@@ -57,10 +57,10 @@ export default function SmallReview() {
       </Carousel.Item>
       <Carousel.Item>
         <Row>
-          <Col sm={4} xs={5}>
-            <img src={r3} className="w-75 " alt="" />
+          <Col  xs={3}>
+            <img src={r3} className="w-100 " alt="" />
           </Col>
-          <Col sm={8} xs={7}>
+          <Col  xs={9}>
             <h6 className="reviewName">Eva Zu Bek</h6>
             <text className="reviewstyle">
               Overall satisfied with the service and comfort. Rooms were basic
