@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row,Col,Container } from 'react-bootstrap'
+import {Container } from 'react-bootstrap'
 import fastCheck from '../assets/fast_check_in_desktop_2.png'
 import playstore from '../assets/google_play_desktop.jpg'
 import appstore from '../assets/app_store_desktop.jpg'

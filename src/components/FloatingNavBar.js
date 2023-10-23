@@ -7,7 +7,7 @@ export default function FloatingNavBar() {
 
     useEffect(() => {
       const handleScroll = () => {
-        if (window.scrollY > 100) {
+        if (window.scrollY > 600) {
           setIsFloating(true);
         } else {
           setIsFloating(false);

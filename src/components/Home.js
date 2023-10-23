@@ -53,25 +53,25 @@ export default function Home() {
       <FloatingButtons/>
       <MainText />
       
-      <Carousel  responsive={responsive} >
+      <Carousel touch responsive={responsive} >
 
         <Carousel.Item >
-          <img src={cover1} className='w-100' style={{ minHeight: "90vh" }} alt='' />
+          <img src={cover1} className='HomeSlider ' style={{ minHeight: "100vh" }} alt='' />
         </Carousel.Item>
         <Carousel.Item >
-          <img src={cover2} className=' w-100' style={{ minHeight: "90vh" }} alt='' />
+          <img src={cover2} className='HomeSlider' style={{ minHeight: "100vh" }} alt='' />
         </Carousel.Item>
         <Carousel.Item >
-          <img src={cover3} className=' w-100' style={{ minHeight: "90vh" }} alt='' />
+          <img src={cover3} className='HomeSlider' style={{ minHeight: "100vh" }} alt='' />
         </Carousel.Item>
         <Carousel.Item >
-          <img src={cover4} className=' w-100' style={{minHeight:"90vh"}} alt='' />
+          <img src={cover4} className='HomeSlider' style={{minHeight:"100vh"}} alt='' />
         </Carousel.Item>
         <Carousel.Item >
-          <img src={cover5} className='w-100' style={{ minHeight: "90vh" }} alt='' />
+          <img src={cover5} className='HomeSlider' style={{ minHeight: "100vh" }} alt='' />
         </Carousel.Item>
         <Carousel.Item >
-          <img src={cover6} className='w-100' style={{ minHeight: "90vh" }} alt='' />
+          <img src={cover6} className='HomeSlider w-100' style={{ minHeight: "100vh" }} alt='' />
         </Carousel.Item>
       </Carousel>
 

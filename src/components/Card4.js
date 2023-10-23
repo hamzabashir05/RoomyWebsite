@@ -50,30 +50,29 @@ export default function Card4() {
   <Container flex className='card4syle'>
 <Row>
     
-    <Col lg={4} xs={7} md={4} className='justify-content: flex-start'>
+    <Col lg={4} xs={7} md={6} className='justify-content: flex-start'>
     <div> 
 
         <h5 className='listHead'>CUSTOMER REVIEWS</h5>
-      <div className='show-on-small-screenReview'>
+      <div className='show-Review-small-screen'>
           <SmallReview/>
       </div>
-        <Carousel  responsive={responsive} className='hide-on-small-screenReviews' 
-        indicators={true} showArrows={true}>
+        <Carousel responsive={responsive} className='hide-Review-small-screen' >
         <Carousel.Item > 
         <Row  >
-            <Col md={3} xs={5}> < img src={r1} className='w-75 ' alt=''/> </Col>
+            <Col md={3} xs={5}> < img src={r1} className='w-100 ' alt=''/> </Col>
             <Col md={9} xs={7}> 
             <h6 className='reviewName'>Umair Jaswal</h6>
             <text className='reviewstyle'>Overall satisfied with the service and comfort. Rooms were basic but clean and everything was in working order.</text>
             </Col>
         </Row>
         <Row>
-            <Col md={3} xs={5}> < img src={r2} className='w-75' alt='' /> </Col>
+            <Col md={3} xs={5}> < img src={r2} className='w-100' alt='' /> </Col>
             <Col md={9}xs={7}>  <h6 className='reviewName'> Humnah Raza</h6>
             <text className='reviewstyle'>Overall satisfied with the service and comfort. Rooms were basic but clean and everything was in working order.</text> </Col>
         </Row>
         <Row>
-            <Col md={3} xs={5}> < img src={r3} className='w-75' alt='' /></Col>
+            <Col md={3} xs={5}> < img src={r3} className='w-100' alt='' /></Col>
             <Col md={9}xs={7}> <h6 className='reviewName'>Eva Zu Bek</h6>
             <text className='reviewstyle'>Overall satisfied with the service and comfort. Rooms were basic but clean and everything was in working order.</text> </Col>
         </Row>
@@ -81,19 +80,19 @@ export default function Card4() {
             
           <Carousel.Item> 
         <Row>
-            <Col md={3} xs={5}> < img src={r7} className='w-75' alt=''/> </Col>
+            <Col md={3} xs={5}> < img src={r7} className='w-100' alt=''/> </Col>
             <Col md={9}xs={7}> 
             <h6 className='reviewName'>Ghazal </h6>
             <text className='reviewstyle'>Overall satisfied with the service and comfort. Rooms were basic but clean and everything was in working order.</text>
             </Col>
         </Row>
         <Row>
-            <Col md={3}xs={5}> < img src={r5} className='w-75' alt='' /> </Col>
+            <Col md={3}xs={5}> < img src={r5} className='w-100' alt='' /> </Col>
             <Col md={9}xs={7}>  <h6 className='reviewName'> Aqib</h6>
             <text className='reviewstyle'>Overall satisfied with the service and comfort. Rooms were basic but clean and everything was in working order.</text> </Col>
         </Row>
         <Row>
-            <Col md={3} xs={5}> < img src={r6} className='w-75' alt='' /></Col>
+            <Col md={3} xs={5}> < img src={r6} className='w-100' alt='' /></Col>
             <Col md={9} xs={7}> <h6 className='reviewName'>Chandril</h6>
             <text className='reviewstyle'>Overall satisfied with the service and comfort. Rooms were basic but clean and everything was in working order.</text> </Col>
         </Row>
@@ -101,7 +100,7 @@ export default function Card4() {
             
           <Carousel.Item> 
         <Row>
-            <Col md={3} xs={5}> < img src={r4} className='w-75' alt=''/> </Col>
+            <Col md={3} xs={5}> < img src={r4} className='w-100' alt=''/> </Col>
             <Col md={9} xs={7}> 
             <h6 className='reviewName'>Steve Amy</h6>
             <text className='reviewstyle'>Overall satisfied with the service and comfort. Rooms were basic but clean and everything was in working order.</text>
@@ -109,12 +108,12 @@ export default function Card4() {
             </Col>
         </Row>
         <Row>
-            <Col md={3} xs={5}> < img src={r8} className='w-75' alt='' /> </Col>
+            <Col md={3} xs={5}> < img src={r8} className='w-100' alt='' /> </Col>
             <Col md={9} xs={7}>  <h6 className='reviewName'> Zee Abbas</h6>
             <text className='reviewstyle'>Overall satisfied with the service and comfort. Rooms were basic but clean and everything was in working order.</text> </Col>
         </Row>
         <Row>
-            <Col md={3} xs={5}> < img src={r9} className='w-75' alt='' /></Col>
+            <Col md={3} xs={5}> < img src={r9} className='w-100' alt='' /></Col>
             <Col md={9} xs={7}> <h6 className='reviewName'>Daniel A</h6>
             <text className='reviewstyle'>Overall satisfied with the service and comfort. Rooms were basic but clean and everything was in working order.</text> </Col>
         </Row>
@@ -122,7 +121,7 @@ export default function Card4() {
         </Carousel>
     </div>
     </Col>
-    <Col lg={2} xs={5} md={2} >
+    <Col lg={2} xs={5} md={6} >
     <h5 className='listHead'>MENU</h5>
     <Tab.Container  >
       
@@ -150,35 +149,35 @@ export default function Card4() {
     </Tab.Container>
     
     </Col>
-    <Col lg={2} xs={7} md={2} >
+    <Col lg={2} xs={7} md={6} >
         <h5 className='listHead'> JOURNAL</h5>
     <Row>
-        <Col md={5} xs={5}> < img src={p7} className='w-100 journalSpacing' alt='' />
+        <Col lg={5} md={3} xs={3}> < img src={p7} className='w-100' alt='' />
         </Col>
-        <Col md={7} xs={7}> 
-        <p className='reviewstyle'>Informative,&nbsp;Upbeat And&nbsp;Aspirational!  </p> 
-        <p className='jouralDate'>15 Feburary</p>
+        <Col lg={7} md={9} xs={9}> 
+        <p className='journalTxt'>Informative,&nbsp;Upbeat And&nbsp;Aspirational!  </p> 
+        <p className='journalDate'>15&nbsp;Feburary</p>
         
         </Col>
     </Row>
     <Row>
-        <Col md={5} xs={5}> < img src={p8} className='w-75 journalSpacing' alt='' />
+        <Col lg={5} md={3} xs={3}> < img src={p8} className='w-100' alt='' />
         </Col>
-        <Col md={7} xs={7}>  <p className='reviewstyle'>Informative,&nbsp;Upbeat And&nbsp;Aspirational! </p>
-        <p className='jouralDate'>15 Feburary</p>
+        <Col lg={7} md={9} xs={9}>  <p className='journalTxt'>Informative,&nbsp;Upbeat And&nbsp;Aspirational! </p>
+        <p className='journalDate'>15&nbsp;Feburary</p>
         </Col>
     </Row>
     <Row>
-        <Col md={5} xs={5}> < img src={p9} className='w-75 journalSpacing' alt='' />
+        <Col lg={5} md={3} xs={3}> < img src={p9} className='w-100 ' alt='' />
         </Col>
-        <Col md={7} xs={7}>  <p className='reviewstyle'>Informative,&nbsp;Upbeat And&nbsp;Aspirational!</p>
-        <p className='jouralDate'>15 Feburary</p>
+        <Col lg={7} md={9} xs={9}>  <p className='journalTxt'>Informative,&nbsp;Upbeat And&nbsp;Aspirational!</p>
+        <p className='journalDate'>15&nbsp;Feburary</p>
         </Col>
     </Row>
     </Col>
-    <Col lg={4} xs={5} md={4}>
+    <Col lg={4} xs={5} md={6}>
 
-    <h5 className='listHead' > WE&nbsp;ALSOHOST </h5>
+    <h5 className='listHead' > WE&nbsp;ALSO&nbsp;HOST </h5>
       <div className='HostFlex'>
        <div className='row'> 
         < img src={p1} className='HostFlexImg  ' alt='' />

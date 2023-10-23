@@ -1,3 +1,9 @@
+  .HomeSlider{
+object-fit: cover;
+width: 100%;
+
+  }
+  
   .cardTextStyle {
     position: relative;
     margin-left: 10px;
@@ -289,15 +295,16 @@ padding-right: 90px;
 
   .contact {
     font-size: 3rem;
-    font-size: clamp(1.5rem, 3vw, 5rem);
+    font-size: clamp(1rem, 3vw, 5rem);
     font-weight: 500;
-    margin-left: 10rem;
+   
     color: #00123f;
     margin-bottom: 1rem;
     margin-top: 1rem;
     letter-spacing: 0;
     opacity: 1;
     text-transform: uppercase;
+    text-align: center;
   }
 
   .contactText {
@@ -389,7 +396,7 @@ padding-right: 90px;
   }
 
   .listStyle {
-    text-align: left;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0;
     color: #464646;
@@ -397,24 +404,25 @@ padding-right: 90px;
     opacity: 1;
     font-size: 0.7rem;
     background-color: #ffffff;
+    text-align: left;
    
   }
 
   .listHead {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
-    text-align: left;
+    text-align: center;
     margin-bottom: 2rem;
     margin-top: 1rem;
     
   }
 
   .listHead2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
-    text-align: left;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
 
   .card4syle {
@@ -695,10 +703,17 @@ margin-bottom: 10px;
   right: 120px; /* Position to the left when text is visible */
 }
 
-.jouralDate{
+.journalDate{
   color: #00164d;
   font-size: 0.7rem;
  font-weight: 700 ;
+
+}
+.journalTxt{
+color: grey;
+font-size: 0.7rem;
+font-weight: 400;
+margin-bottom: 0;
 }
 .card1image{
 width: 65%;
@@ -714,7 +729,7 @@ width: 65%;
 .row {
   display: flex;
   flex-direction: row;
-  justify-content:left;
+  justify-content:center;
   width: 100%; /* Ensure each row takes the full width of the parent */
   margin-bottom: 0.5rem; /* Add spacing between rows */
 }
@@ -741,11 +756,7 @@ width: 65%;
       display: none;
     }
   }
-  @media (max-width: 1000px) {
-    .hide-on-small-screenReviews {
-      display: none;
-    }
-  }
+  
   
   /* Responsive layout - makes a one column layout instead of a two-column layout */
   @media (max-width: 800px) {
@@ -791,9 +802,17 @@ width: 65%;
       display: block;
     }
   }
-  @media (max-width: 1000px) {
-    .show-on-small-screenReview {
+  .show-Review-small-screen {
+    display: none;
+  }
+  @media (max-width: 1200px) {
+    .show-Review-small-screen {
       display: block;
+    }
+  }
+  @media (max-width: 1200px) {
+    .hide-Review-small-screen {
+      display: none;
     }
   }
   @media (max-width: 1000px) {

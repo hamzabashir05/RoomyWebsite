@@ -1,7 +1,7 @@
 import React from 'react'
 import MainCard from './MainCard'
 import { Col, Container, Row } from 'react-bootstrap'
-import Banner from './Banner'
+
 
 export default function MainText() {
     return (

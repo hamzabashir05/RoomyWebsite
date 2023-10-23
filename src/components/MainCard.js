@@ -4,8 +4,8 @@ import "./style.css";
 import { Container } from "react-bootstrap";
 import Banner from "./Banner";
 import { Dropdown } from "react-bootstrap";
-import Picker from "react-datepicker"; // Import your actual Picker library here
-import MonthBox from "react-datepicker"; // Import your MonthBox component here
+// import Picker from "react-datepicker"; // Import your actual Picker library here
+// import MonthBox from "react-datepicker"; // Import your MonthBox component here
 
 export default function MainCard() {
   // const handleClickMonthBox = () => {

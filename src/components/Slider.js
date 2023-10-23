@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Card } from 'react-bootstrap'
+import { Container} from 'react-bootstrap'
 import l3 from '../assets/locations_carousel_3.jpg'
 import Carousel from 'react-multi-carousel';
 import l1 from '../assets/locations_carousel_1.jpg'
@@ -55,7 +55,7 @@ export default function Slider() {
           </div>
     
 
-      <Carousel  responsive={responsive}>
+      <Carousel responsive={responsive}>
         <div className='flex-containerMain'> 
           <div className="flex-container " style={{width:"50%"}}>
           <div className='spacing'> <img src={l1} className='sliderImageStyle' alt='' /> 
