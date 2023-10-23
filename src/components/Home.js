@@ -23,6 +23,7 @@ import Card1 from './Card1';
 import Booking from './Booking';
 import FloatingButtons from './FloatingButtons';
 import FloatingNavBar from './FloatingNavBar';
+import SideBar from './SideBar';
 
 export default function Home() {
 
@@ -50,6 +51,7 @@ export default function Home() {
     <Container fluid className='px-0 position-relative'>
 
       <NavBar />
+     
       <FloatingButtons/>
       <MainText />
       

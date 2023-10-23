@@ -13,7 +13,7 @@ export default function Banner() {
     <Container>
 
 <div className='mt-4 text-end hide-on-small-screen' >
-    <img src={baner} className='w-50 ' alt='' ref={target} onClick={() => setShow(!show)} /> 
+    <img src={baner} className='w-75 ' alt='' ref={target} onClick={() => setShow(!show)} /> 
     <Overlay target={target.current} show={show} placement="top">
        <div >
              <img src={popupImage} className='w-50 ' alt=''/>

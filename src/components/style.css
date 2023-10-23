@@ -3,7 +3,7 @@ object-fit: cover;
 width: 100%;
 
   }
-  
+
   .cardTextStyle {
     position: relative;
     margin-left: 10px;
@@ -636,7 +636,7 @@ margin-bottom: 10px;
   bottom: 100px; /* Adjust the vertical position */
   right: 5px; /* Adjust the horizontal position */
   z-index: 1000; /* Ensure it's above other content */
-  background-color: #584cc0; /* Background color of the button */
+  background-color: #4d41bb; /* Background color of the button */
   color: #fff; /* Text color of the button */
   border-radius: 20%; /* Create a round button */
   width: 40px;
@@ -747,7 +747,6 @@ width: 65%;
   padding-bottom: 0.2rem;
   
 }
-
   .show-on-small-screen {
     display: none;
   }
@@ -756,7 +755,29 @@ width: 65%;
       display: none;
     }
   }
-  
+  .nvaBarItemShow{
+    display: none;
+  }
+  @media (max-width: 1000px) {
+.nvaBarItemShow{
+  display: block;
+}
+
+  }
+
+  @media (max-width: 1000px) {
+    .nvaBarItemHide{
+  display: none;
+    }
+    .NavBarStyling{
+    background-color: rgb(105, 105, 105);
+    text-align: right;
+    padding-right: 5%;
+    margin-left: 30%;
+    padding-bottom: 35%;
+    padding-top: 5%;
+    }
+  }
   
   /* Responsive layout - makes a one column layout instead of a two-column layout */
   @media (max-width: 800px) {
@@ -796,7 +817,6 @@ width: 65%;
     letter-spacing: 0;
   }
 }
- 
   @media (max-width: 800px) {
     .show-on-small-screen {
       display: block;
