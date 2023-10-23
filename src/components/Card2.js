@@ -26,15 +26,14 @@ export default function Card2() {
     }
   };
   return (
-    <Card className='cardStyle' > 
+    <Card className='cardStyle ' > 
 <Card.Body >
     <Row responsive={responsive} >
        <Col sm={1} xs={0}></Col>
         <Col sm={4} xs={4}>
         <Card.Title className='offerMaintext d-flex align-items-center'>  See&nbsp;the  <img src={offer2} className='w-25  img-fluid' alt='' /> </Card.Title>  
     <Card.Title className='offerMaintext'>offers & deals <img src={offerArrow} className=' w-25 img-fluid' alt=''/> </Card.Title>
-    <Card.Text className='offerText1'> Hurry up! Book your room now & unlock new memories with us.</Card.Text>
-     
+    <Card.Text className='offerText1'> Hurry up! Book your room now & unlock <br></br>new memories with us.</Card.Text>
         </Col>
         <Col sm={2} xs={3} className='my-auto'> 
         <img src={offer}  className='offerStyle img-fluid' alt='' />

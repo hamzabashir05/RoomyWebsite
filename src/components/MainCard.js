@@ -338,7 +338,8 @@ export default function MainCard() {
       <Card className="cardTextStylast">
         <Card.Body>
           <Card.Text className="cardLastitem ">
-            Check Availability <i class="fa-solid fa-magnifying-glass"></i>
+            Check Availability&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa-solid fa-magnifying-glass"></i>
           </Card.Text>
         </Card.Body>
       </Card>

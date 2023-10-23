@@ -22,8 +22,8 @@ export default function NavBar() {
             <Nav.Link><button className='navBarbutton'>Create Account</button> <button className='navBarbutton'>Sign In</button></Nav.Link>
            <br></br>
             </div>
-             <Nav.Link href="#Home" className='navBarstyle links'>HOME</Nav.Link>
-             <Nav.Link href="#Hotels"className='navBarstyle links' >HOTELS</Nav.Link>
+             <Nav.Link href="./" className='navBarstyle links'>HOME</Nav.Link>
+             <Nav.Link href="./hotels"className='navBarstyle links' >HOTELS</Nav.Link>
              <Nav.Link href="#Events&Dine"className='navBarstyle links'>EVENTS&nbsp;&&nbsp;DINE&nbsp;IN</Nav.Link>
              <Nav.Link href="#Getaways"className='navBarstyle links'>GETAWAYS</Nav.Link>
            </Nav>

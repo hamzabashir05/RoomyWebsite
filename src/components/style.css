@@ -245,8 +245,8 @@ width: 100%;
   .offerMaintext {
     font-size: 2rem;
     font-size: clamp(0.8rem, 2vw, 3rem);
-    text-align: left;
     color: white;
+    margin-top: 10px;
   }
 
   .fastChekin {
