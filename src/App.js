@@ -3,6 +3,7 @@ import './App.css';
 import Home from './components/Home';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Hotels from './components/Hotels';
+import EventsDineIn from './components/EventsDineIn';
 function App() {
   return (
    <>
@@ -10,8 +11,8 @@ function App() {
  <BrowserRouter>
 <Routes>
 <Route path='/' element={ <Home/>} />
-  <Route path='hotels' element={< Hotels/>} />
-    
+<Route path='hotels' element={< Hotels/>} />
+ <Route path='events' element={<EventsDineIn/>}  />
   
 </Routes>
 

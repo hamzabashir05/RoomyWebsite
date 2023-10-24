@@ -747,6 +747,49 @@ width: 65%;
   padding-bottom: 0.2rem;
   
 }
+
+.exploreImgStyle{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.exploreImgSize{
+width: 35%;
+margin-bottom: 1rem;
+position: relative;
+
+}
+.eventsSmallImg{
+width: 25%;
+
+}
+.eventsButtons{
+
+  background-color: rgba(0, 3, 167, 0.753) !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 1rem;
+    font-size: clamp(0.8rem, 1vw, 1.5rem);
+    font-weight: bold;
+    padding: 8px;
+    margin: 10px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .show-on-small-screen {
     display: none;
   }

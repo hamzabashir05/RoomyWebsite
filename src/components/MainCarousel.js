@@ -50,7 +50,7 @@ export default function MainCarousel() {
       <img src={cover5} className='HomeSlider' style={{ minHeight: "100vh" }} alt='' />
     </Carousel.Item>
     <Carousel.Item >
-      <img src={cover6} className='HomeSlider w-100' style={{ minHeight: "100vh" }} alt='' />
+      <img src={cover6} className='HomeSlider' style={{ minHeight: "100vh" }} alt='' />
     </Carousel.Item>
   </Carousel>
   )

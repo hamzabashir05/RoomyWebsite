@@ -24,7 +24,7 @@ export default function NavBar() {
             </div>
              <Nav.Link href="./" className='navBarstyle links'>HOME</Nav.Link>
              <Nav.Link href="./hotels"className='navBarstyle links' >HOTELS</Nav.Link>
-             <Nav.Link href="#Events&Dine"className='navBarstyle links'>EVENTS&nbsp;&&nbsp;DINE&nbsp;IN</Nav.Link>
+             <Nav.Link href="./events"className='navBarstyle links'>EVENTS&nbsp;&&nbsp;DINE&nbsp;IN</Nav.Link>
              <Nav.Link href="#Getaways"className='navBarstyle links'>GETAWAYS</Nav.Link>
            </Nav>
            <Nav className='nvaBarItemHide'>
