@@ -935,3 +935,33 @@ width: 20%;
     }
     
   }
+
+  @media (max-width: 800px) {
+    .eventStyle1,.eventStyle2{
+      flex-direction: column;
+     text-align: center;
+     align-content: center;
+     
+    }
+    .eventOptionsImg{
+       width: 500px;
+      
+    }
+    .mainText2{
+      font-size: 1.7rem;
+      font-weight: 500;
+      font: normal Mohave;
+      letter-spacing: -.5px;
+      margin-top: 0.8rem;
+      color: #000;
+      text-transform: uppercase;
+      opacity: 1;
+     
+    }
+    .longText{
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      color: rgb(151, 148, 148);
+      letter-spacing: 0;
+    }
+  }

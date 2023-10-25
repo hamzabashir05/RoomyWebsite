@@ -18,7 +18,7 @@ export default function GetawayOption1() {
   </div>
 
  
-    <div fluid className='getawayOpImg  px-0 position-relative'>
+    <div fluid className='getawayOpImg'>
        
         <img src={o11} className='' alt='' />
        

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import fp from '../assets/Floatphone.png'
-import fw from '../assets/floatwhatsapp.png'
+
 export default function FloatingButtons() {
 
   const [isTextVisible, setTextVisible] = useState(false);
