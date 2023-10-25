@@ -4,6 +4,7 @@ import Home from './components/Home';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Hotels from './components/Hotels';
 import EventsDineIn from './components/EventsDineIn';
+import Getaways from './components/Getaways';
 function App() {
   return (
    <>
@@ -13,7 +14,7 @@ function App() {
 <Route path='/' element={ <Home/>} />
 <Route path='hotels' element={< Hotels/>} />
  <Route path='events' element={<EventsDineIn/>}  />
-  
+  <Route path='getaway' element={<Getaways/>}/>
 </Routes>
 
 </BrowserRouter>

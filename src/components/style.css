@@ -727,6 +727,7 @@ width: 65%;
 
 }
 .row {
+  padding-left: 10px;
   display: flex;
   flex-direction: row;
   justify-content:center;
@@ -762,7 +763,7 @@ position: relative;
 
 }
 .eventsSmallImg{
-width: 25%;
+width: 20%;
 
 }
 .eventsButtons{
@@ -773,8 +774,47 @@ width: 25%;
     font-size: clamp(0.8rem, 1vw, 1.5rem);
     font-weight: bold;
     padding: 8px;
-    margin: 10px
+    margin: 1rem;
 }
+
+.eventOptionsImg{
+  width: 45%;
+}
+
+.eventStyle1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  padding: 50px;
+  }
+
+.eventStyle2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  background-color: #e2e2e2;
+  padding: 50px;
+ 
+  }
+  
+  .getawayOpImg{
+
+   display: flex;
+   flex-direction: row;
+  justify-content: space-between; 
+  align-items: center; 
+  }
+.getawayOpImg img {
+  max-width: 25%; 
+  margin: 0; 
+  padding: 10px;
+}
+
+
 
 
 

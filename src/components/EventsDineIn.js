@@ -13,19 +13,24 @@ import EventsOptions from './EventsOptions'
 export default function EventsDineIn() {
   return (
     <Container fluid className='px-0 position-relative' >
-        <>
-        <NavBar/>
-        </>
-       <>
-       <Maintext3/>
-       </>
-  <>
-     <EventsCarousel/>
-  </>
-  <EventsOptions/>
-<ContactUs/>
-    <Card4/>
-    <Footer/>
+      <>
+        <NavBar />
+      </>
+      <>
+        <Maintext3 />
+      </>
+      <>
+        <EventsCarousel />
+      </>
+      <>
+        <EventsOptions />
+      </>
+
+<br></br>
+<br></br>
+      <ContactUs />
+      <Card4 />
+      <Footer />
     </Container>
   )
 }
