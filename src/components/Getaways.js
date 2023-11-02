@@ -7,6 +7,7 @@ import Footer from './Footer'
 import MainText4 from './MainText4'
 import GetawayOption1 from './GetawayOption1'
 import GetawayOption2 from './GetawayOption2'
+import GetawayReason from './GetawayReason'
 export default function Getaways() {
   return (
     <Container fluid className='px-0 position-relative' >
@@ -15,7 +16,9 @@ export default function Getaways() {
          <GetawaysCarousel/>
         <MainText4/>
          <GetawayOption1/>
+         <br/>
         <GetawayOption2/>
+        <GetawayReason/>
        <Card4/>
        <Footer/>
         </Container>

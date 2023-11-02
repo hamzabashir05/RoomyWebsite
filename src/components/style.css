@@ -728,6 +728,7 @@ width: 65%;
 }
 .row {
   padding-left: 10px;
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content:center;
@@ -751,6 +752,7 @@ width: 65%;
 
 .exploreImgStyle{
   display: flex;
+  position: relative;
   flex-direction: column; 
   justify-content: center; 
   align-items: center; 
@@ -760,6 +762,7 @@ width: 65%;
 width: 35%;
 margin-bottom: 1rem;
 position: relative;
+z-index: 1;
 
 }
 .eventsSmallImg{
@@ -808,11 +811,72 @@ width: 20%;
   justify-content: space-between; 
   align-items: center; 
   }
-.getawayOpImg img {
-  max-width: 25%; 
+.getawayOpImg2 {
+  max-width: 100%; 
   margin: 0; 
   padding: 10px;
 }
+.getawayOpImg p{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+
+}
+.siginImg{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+}
+
+.text-blockSample {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-size: clamp(0.6rem, 2vw, 2rem);
+  text-transform: uppercase;
+  letter-spacing: 0px;
+
+
+}
+
+.exploreButton{
+  background-color: rgba(255, 255, 255, 0.192) !important;
+  color: rgb(255, 255, 255) !important;
+  border-color: rgb(255, 255, 255) !important;
+  font-size: 1.2rem;
+  font-size: clamp(0.8rem, 1.2vw, 3rem);
+  font-weight: bold;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  border-style: double;
+}
+
+.image-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 10%;
+  gap: 10px;
+  position: relative;
+}
+
+.gallery-image {
+ 
+  width: 45%;
+
+}
+
+
+
+
+
+
+
+
 
 
 

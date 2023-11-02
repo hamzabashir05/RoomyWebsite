@@ -18,15 +18,15 @@ export default function GetawayOption1() {
   </div>
 
  
-    <div fluid className='getawayOpImg'>
+    <div  className='getawayOpImg'>
        
-        <img src={o11} className='' alt='' />
+       <div> <img src={o11} className='getawayOpImg2' alt='' /> <p>CHITRAL</p></div>
        
-        <img src={o12} className='' alt='' />
+     <div>   <img src={o12} className='getawayOpImg2' alt='' /><p>HUNZA</p></div>
        
-        <img src={o13} className='' alt='' />
+     <div> <img src={o13} className='getawayOpImg2' alt='' /><p>KALAM</p></div>
        
-        <img src={o14} className='' alt='' />
+     <div><img src={o14} className='getawayOpImg2' alt='' /><p>MURREE, GALIYAT</p></div>
       
     </div>
     </Container>
