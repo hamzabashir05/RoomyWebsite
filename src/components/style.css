@@ -836,6 +836,12 @@ width: 20%;
   font-size: clamp(0.6rem, 2vw, 2rem);
   text-transform: uppercase;
   letter-spacing: 0px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 100%;
 
 
 }
@@ -845,13 +851,14 @@ width: 20%;
   color: rgb(255, 255, 255) !important;
   border-color: rgb(255, 255, 255) !important;
   font-size: 1.2rem;
-  font-size: clamp(0.8rem, 1.2vw, 3rem);
+  font-size: clamp(0.7rem, 1.2vw, 2rem);
   font-weight: bold;
   padding-left: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 25px;
   border-style: double;
+  margin-bottom: 5%;
 }
 
 .image-gallery {
@@ -861,16 +868,29 @@ width: 20%;
   justify-content: flex-start;
   padding-left: 10%;
   gap: 10px;
-  position: relative;
+ 
 }
 
 .gallery-image {
  
   width: 45%;
+  position: relative;
 
 }
 
+.exploreImgS {
 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  padding-bottom: 5%;
+
+  
+}
 
 
 
@@ -1001,13 +1021,13 @@ width: 20%;
   }
 
   @media (max-width: 800px) {
-    .eventStyle1,.eventStyle2{
+    .eventStyle1,.eventStyle2,.image-gallery{
       flex-direction: column;
      text-align: center;
      align-content: center;
      
     }
-    .eventOptionsImg{
+    .eventOptionsImg,.gallery-image{
        width: 500px;
       
     }
@@ -1028,4 +1048,36 @@ width: 20%;
       color: rgb(151, 148, 148);
       letter-spacing: 0;
     }
+    .text-blockSample {
+      position: absolute;
+      color: rgb(255, 255, 255);
+      font-size: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 0px;
+      width: 100%;
+      height: 100%;
+    
+  }
+  .exploreButton{
+    background-color: rgba(255, 255, 255, 0.192) !important;
+    color: rgb(255, 255, 255) !important;
+    border-color: rgb(255, 255, 255) !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    border-style: double;
+    margin-bottom: 5%;
+}
+.dineIn {
+
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 2rem;
+
+}
+  
   }
