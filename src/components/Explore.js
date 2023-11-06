@@ -37,47 +37,55 @@ export default function Explore() {
       img: e1,
       name: 'ISLAMABAD',
       img2: e10,
-      name2:'hello'
+      name2:'Roomy Signature'
     },
     {
       img: e2,
       name: 'MURREE',
       img2: e11,
+      name2:' Roomy Lodges'
     },
     {
       img: e3,
       name: 'CHITRAL',
       img2: e12,
+      name2:'Roomy Hindukush'
     },
     {
       img: e4,
       name: 'HUNZA',
-      img2:[e21,e22,e23,e24,e25]
+      img2:[e21,e22,e23,e24,e25],
+      name2:['Roomy Dastaan','Roomy Vantage','Roomy Khawana','Yurts Minapin','Yurts Gulmit']
     },
     {
       img: e5,
       name: 'BATAKUNDI',
       img2: [e15, e16],
+      name2:['Mountain Resort','Roomy Northridge']
     },
     {
       img: e6,
       name: 'PESHAWAR',
       img2: e13,
+      name2:'Roomy CrossRoad'
     },
     {
       img: e7,
       name: 'NATHIA GALI',
       img2:[e17,e18],
+      name2:['Lemon Lodges','GaliEnd Roomy']
     },
     {
       img: e8,
       name: 'KALAM',
-      img2:[e19,e20]
+      img2:[e19,e20],
+      name2:['Greens','Walnut']
     },
     {
       img: e9,
       name: 'THANDIANI',
       img2: e14,
+      name2:'Roomy Point'
     },
   ];
 
@@ -94,31 +102,33 @@ export default function Explore() {
             <div className='exploreImgS'>
               {Array.isArray(imagePath.img2) ? (
                 imagePath.img2.map((img, imgIndex) => (
-                
+                  <div className='exploreImgS2'> 
                   <img
                     key={imgIndex}
                     src={img}
-                    alt={`Image ${imgIndex + 1}`}
-                    style={{ width: '15%' }}
+                    alt={``}
+                    style={{ width: '100%', padding :'10%' }}
+                    
                   />
-                 
+                   <p className='namestyle'>{imagePath.name2[imgIndex]}</p>
+                  </div>
                 ))
               ) : (
-              
+            <div className='exploreImgS2'>
                 <img
                   key={index}
                   src={imagePath.img2}
-                  alt={`Image ${index + 1}`}
-                  style={{ width: '15%' }}
+                  alt={``}
+                  style={{ width: '100%',padding :'5%' }}
                 />
-               
-                
+                <p className='namestyle'>{imagePath.name2}</p>
+                </div>
               )}
             </div>
             <img
               key={index}
               src={imagePath.img}
-              alt={`Image ${index + 1}`}
+              alt={``}
               style={{ width: '100%' }}
             />
           </div>
