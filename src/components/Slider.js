@@ -55,7 +55,7 @@ export default function Slider() {
           </div>
     
 
-      <Carousel responsive={responsive}>
+      <Carousel keyboard responsive={responsive}>
         <div className='flex-containerMain'> 
           <div className="flex-container " style={{width:"50%"}}>
           <div className='spacing'> <img src={l1} className='sliderImageStyle' alt='' /> 

@@ -32,7 +32,7 @@ export default function MainCarousel() {
 
   return (
      
-    <Carousel touch responsive={responsive} >
+    <Carousel touch keyboard responsive={responsive} >
 
     <Carousel.Item >
       <img src={cover1} className='HomeSlider ' style={{ minHeight: "100vh" }} alt='' />

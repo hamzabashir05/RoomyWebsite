@@ -35,7 +35,7 @@ export default function GetawayReason() {
         <div className='dineIn'>
         #WHAT YOU’RE IN FOR
     </div>
-    <Carousel touch responsive={responsive} >
+    <Carousel fade keyboard responsive={responsive} >
 
     <Carousel.Item >
     <div  className='eventStyle1'>

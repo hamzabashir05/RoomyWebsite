@@ -38,7 +38,7 @@ export default function Slider2() {
     Guess what? We have cafes and restaurants too
     </div>
     
-<Carousel  responsive={responsive}>
+<Carousel keyboard responsive={responsive}>
   <div> <img src={rest1} className='slider2Style w-75 h-75' alt='' />
   <div className='restoStyle'>SKY LIGHT</div> 
   <div className='restoDisp'>ROOMY SIGNATURE HOTEL, ISLAMABAD</div>

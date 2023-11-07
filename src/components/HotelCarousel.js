@@ -30,7 +30,7 @@ export default function HotelCarousel() {
     
 
   return (
-    <Carousel touch responsive={responsive} >
+    <Carousel touch keyboard responsive={responsive} >
 
     <Carousel.Item >
       <img src={cover7} className='HomeSlider ' style={{ minHeight: "100vh" }} alt='' />

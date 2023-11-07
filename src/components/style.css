@@ -903,6 +903,116 @@ text-align: center;
 text-transform: uppercase;
 font-size: clamp(0.5rem, 1vw, 1rem);
 }
+.plusMinus{
+
+  background-color: #ffffff;
+ text-align: center;
+ color:#00123f;
+ font-weight: 500;
+ 
+}
+.plusMinusBtn{
+  background-color: #00123f;
+ color: #ffffff;
+ margin-right: 5%;
+ margin-left: 5%;
+ padding-left: 5%;
+ padding-right: 5%;
+}
+
+
+
+/* Style the date picker container */
+.react-datepicker {
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #aaa;
+}
+
+/* Style the date input */
+.react-datepicker__input-container {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #aaa;
+}
+
+/* Style the selected date */
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the calendar pop-up */
+.react-datepicker-popper {
+  z-index: 9999; /* Ensure it's above other content */
+}
+
+/* Style the calendar itself */
+.react-datepicker__calendar {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the day cells */
+.react-datepicker__day {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Style the selected day */
+.react-datepicker__day--selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Style the day when hovered */
+.react-datepicker__day--hovered {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Style the day when selected and hovered */
+.react-datepicker__day--selected:hover {
+  background-color: #0056b3;
+}
+
+/* Style the navigation buttons */
+.react-datepicker__navigation {
+  top: 10px;
+  line-height: 30px;
+}
+
+/* Style the previous and next month buttons */
+.react-datepicker__navigation--previous {
+  left: 10px;
+}
+
+.react-datepicker__navigation--next {
+  right: 10px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1096,6 +1206,4 @@ font-size: clamp(0.5rem, 1vw, 1rem);
   text-transform: uppercase;
   font-size: 0.8rem;
   }
-  
-  
   }

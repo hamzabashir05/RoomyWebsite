@@ -27,13 +27,13 @@ export default function GetawaysCarousel() {
 
 
   return (
-    <Carousel touch responsive={responsive} >
+    <Carousel keyboard responsive={responsive} >
     
         <Carousel.Item >
-          <img src={cover19} className='HomeSlider ' style={{ minHeight: "100vh" }} alt='' />
+          <img src={cover19} className='HomeSlider ' style={{ maxHeight: "100vh" }} alt='' />
         </Carousel.Item>
         <Carousel.Item >
-          <img src={cover20} className='HomeSlider' style={{ minHeight: "100vh" }} alt='' />
+          <img src={cover20} className='HomeSlider' style={{ maxHeight: "100vh" }} alt='' />
         </Carousel.Item>
       </Carousel>
   )

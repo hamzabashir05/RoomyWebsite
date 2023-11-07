@@ -30,25 +30,25 @@ export default function EventsCarousel() {
         
     
       return (
-        <Carousel touch responsive={responsive} >
+        <Carousel touch keyboard responsive={responsive} >
     
         <Carousel.Item >
-          <img src={cover13} className='HomeSlider ' style={{ minHeight: "100vh" }} alt='' />
+          <img src={cover13} className='HomeSlider ' style={{ maxHeight: "100vh" }} alt='' />
         </Carousel.Item>
         <Carousel.Item >
-          <img src={cover14} className='HomeSlider' style={{ minHeight: "100vh" }} alt='' />
+          <img src={cover14} className='HomeSlider' style={{ maxHeight: "100vh" }} alt='' />
         </Carousel.Item>
         <Carousel.Item >
-          <img src={cover15} className='HomeSlider' style={{ minHeight: "100vh" }} alt='' />
+          <img src={cover15} className='HomeSlider' style={{ maxHeight: "100vh" }} alt='' />
         </Carousel.Item>
         <Carousel.Item >
-          <img src={cover16} className='HomeSlider' style={{minHeight:"100vh"}} alt='' />
+          <img src={cover16} className='HomeSlider' style={{maxHeight:"100vh"}} alt='' />
         </Carousel.Item>
         <Carousel.Item >
-          <img src={cover17} className='HomeSlider' style={{ minHeight: "100vh" }} alt='' />
+          <img src={cover17} className='HomeSlider' style={{ maxHeight: "100vh" }} alt='' />
         </Carousel.Item>
         <Carousel.Item >
-          <img src={cover18} className='HomeSlider' style={{ minHeight: "100vh" }} alt='' />
+          <img src={cover18} className='HomeSlider' style={{ maxHeight: "100vh" }} alt='' />
         </Carousel.Item>
       </Carousel>
       )
