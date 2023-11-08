@@ -4,10 +4,14 @@ import "./style.css";
 import { Container } from "react-bootstrap";
 import Banner from "./Banner";
 import { Dropdown } from "react-bootstrap";
-import DatePicker from 'react-datepicker';
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+
 export default function MainCard() {
 
   const [startDate, setStartDate] = useState(new Date());
+  const [EndDate, setEndDate] = useState(new Date());
+
  const [count, setCount] = useState(0);
 
   const handleIncrement = () => {
@@ -45,8 +49,10 @@ export default function MainCard() {
         </Dropdown.Toggle>
         <Dropdown.Menu>
         <div className="react-datepicker">
-        <label>Select Check-In Date:</label>
+        <label>Check-In</label>
         <DatePicker selected={startDate} onChange={date => setStartDate(date)} />
+        <label>Check-Out</label>
+        <DatePicker selected={EndDate} onChange={date => setEndDate(date)} />
       </div>
         </Dropdown.Menu> 
       </Dropdown>
