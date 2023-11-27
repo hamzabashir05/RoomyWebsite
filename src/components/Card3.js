@@ -11,7 +11,7 @@ export default function Card3() {
   return (
     <Container className='card1Style' >
  
-  <img src={fastCheck} className='card1image' alt='' />
+<img src={fastCheck} className='card1image' alt='' />
  
 <div>
 <p className='mainText2'>FAST&nbsp;CHECK&nbsp;IN&nbsp;APP</p>
@@ -22,9 +22,6 @@ export default function Card3() {
  </div>
  <img src={fastarrow} className=' fastBtn img-fluid hide-on-small-screen' alt=''/>
  </div>
-
-    
-
 
     </Container>
   )
